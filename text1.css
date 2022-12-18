@@ -1,0 +1,42 @@
+.responsive{
+    display: flex;
+    margin-left: 40px;
+}
+
+.to{
+    height: 300px;
+    width: 200px;
+}
+.des{
+    width: 100%;
+}
+h1{
+    width: 100%;
+}
+/* .gallery{
+    width :40%;
+} */
+
+@media only screen and (max-width: 500px){
+    
+.responsive{
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.to{
+    width: 40%;
+    height: auto;
+}
+.des{
+    width: 40%;
+}
+h1{
+    width: 40%;
+}
+/* .gallery{
+    width :40%;
+} */
+}
